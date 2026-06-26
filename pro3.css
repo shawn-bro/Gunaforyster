@@ -1,0 +1,309 @@
+*{
+margin:0%;
+padding:0%;
+box-sizing: border-box;
+}
+html,
+body{
+height: 100%;
+width: 100%;
+background-color: black;
+}
+.heading{
+    height: 11%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.heading h1{
+    font-size: 55px;
+    font-weight: 600;
+}
+.container{
+    height: 80%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 25px;
+}
+.box{
+    height: 96%;
+    width: 21%;
+    background-color:black;
+    border-radius: 23px;
+    box-shadow: 1px 2px 3px rgb(197, 68, 18);
+}
+.sub{
+    height: 55%;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 25px;
+    background-image: url(./anil-sharma-VjBCPf-iLOo-unsplash\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: blue;
+    
+}
+.sub10{
+    height: 55%;
+    width: 100%;
+    background-color: blue;
+    
+    margin-top: 70px;
+    background-image: url(./anil-sharma-o9SrWHtgq3Q-unsplash\ \(1\).jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+}
+.sub20{
+    height: 55%;
+    width: 100%;
+    background-color: blue;
+    margin-top: 70px;
+    background-image: url(./ash-edmonds-fsI-_MRsic0-unsplash.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+}
+.sub30{
+    height: 55%;
+    width: 100%;
+    background-color: blue;
+    margin-top:27px ;
+    background-image: url(./clovis-wood-FT1PJqW0qtE-unsplash.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+}
+.top-box {
+    height: 30px;
+    width: 130px;
+    background-color:darkgray;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+    box-shadow: 1px 2px 3px rgb(189, 80, 17);
+    background-color: black;
+}
+.top-box span{
+    margin-right: 10px;
+    color: orange;
+}
+.top-box p{
+    font-size: 20px;
+    font-weight: 500;
+    color: orange;
+}
+.topic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.topic h1{
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+}
+.topic p{
+    font-weight: 500;
+    color: gray;
+}
+.hori{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    margin-top: 20px;
+    width: 75px;
+    border: 1px solid orange;
+
+}
+.money{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: orange;
+}
+.slide{
+    height: 70%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+}
+
+.container2{
+    height: 85%;
+    width: 96.7%;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 1px 2px 3px rgba(197, 94, 9, 0.815);
+
+    
+}
+.top-title{
+    position: absolute;
+    top: 10%;
+    left: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.top-title h4{
+    font-size: 20px ;
+    font-weight: 500;
+    color: orange;
+    letter-spacing: 3px;
+}
+.top-title h1{
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+}
+.top-title p{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(161, 150, 150);
+
+}
+.explanation{
+    position: absolute;
+    left: 33%;
+    top: 30%;
+    margin-top: 45px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(161, 150, 150);
+}
+.explore{
+    position: absolute;
+    left: 33%;
+    top:60% ;
+    margin-top: 20px;
+}
+.explore button{
+    border: 2px solid orange;
+    border-radius: 25px;
+    padding: 10px 20px;
+    color:orange;
+    background-color:transparent ;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.5s ease;
+}
+.explore button:hover{
+    background-color: rgb(20, 16, 16);
+    color: white;
+}
+.explore span{
+    margin-left: 15px;
+}
+.image{
+    height: 85%;
+    width: 25%;
+    background-color: red;
+    border-radius: 10px;
+    position: absolute;
+    top: 10%;
+    left: 2.5%;
+    background-image: url(./sangam-sharma-PUsVt3YpziI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.new{
+    height: 30px;
+    width: 90px;
+    background-color:darkgray;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+    color: orange;
+    font-size: 15px;
+    font-weight: 500;
+    box-shadow: 1px 2px 3px rgb(189, 80, 17);
+    background-color: black;
+}
+.dot{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: orange;
+    margin-right: 10px;
+}
+.h12{
+    width: 100%;
+}
+.line{
+    height: 3px;
+    width: 100%;
+    background: linear-gradient(to right,rgb(160, 112, 22),rgb(231, 78, 8),rgb(223, 124, 67));
+    box-shadow: 2px 2px 3px orange;
+}
+footer{
+    height: 10%;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.fl{
+    padding: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(185, 179, 179);
+}
+.fc{
+    display: flex;
+    gap: 45px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(185, 179, 179);
+}
+.fr{
+    display: flex;
+     padding: 30px;
+     
+}
+.fr .cir1{
+    height: 23px;
+    width: 23px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fr p{
+margin-right: 30px;
+color: rgb(185, 179, 179);
+}
+.fr p :hover{
+    text-decoration: underline;
+    color: orange;
+}
+.cir{
+    display: flex;
+    gap: 10px;
+}
+.fr .cir1 span{
+    color: orange;
+}
